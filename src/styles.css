@@ -1,0 +1,139 @@
+body{
+    background-color:whitesmoke;
+    display: flex;
+    flex-direction:column; 
+    align-items: center;
+}
+
+.grid{
+    background-color:darkgray;
+    width:410px ;
+    height: 310px ;
+    border: solid black 0px;
+    left: 100px;
+    padding: 5px;
+    justify-content: space-evenly;
+    
+     
+}
+
+ .gameover{
+    background-color:rgb(0, 0, 0);
+    width:410px ;
+    height: 310px ;
+    border: solid black 0px;
+    left: 100px;
+    padding: 5px;
+    
+    
+   
+}
+
+.end_section{
+    width:410px ;
+    height: 310px ;
+
+}
+#button {
+     
+    border: 0 ; 
+    padding: 10px 20px ;
+    font-size: 20px;
+    background-color: #011b36 ;
+    height: 100px;
+    width: 120px;
+    border-radius: 20px;
+    color:  rgb(250, 250, 250);
+    font-size: 35px;
+    text-align:center;
+    text-transform: capitalize;
+    position: absolute;
+    top:155px;
+    left:600px;
+    display: none;
+
+    
+
+ }
+     
+    
+ #button:hover{
+     background-color: #350f78 ;
+
+ }
+
+ #button:active{
+     box-shadow: inset -2px -2px 3px rgba(255,255,255,0.6)
+ }
+
+
+
+
+
+
+
+span#result{
+    color: rgb(221, 48, 212);
+}
+
+span#moves{
+    color: rgb(221, 48, 212);
+}
+
+.score-menu{
+    background-color: #d3cedc;
+    width: 420px;
+    height:52px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+
+}
+
+.moves{
+    background-color: white ;
+    width: 100px;
+    height:20px;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    right: 30px;
+    top:10px;
+    border-radius: 15px;
+
+}
+
+.score{
+    background-color: white ;
+    width: 100px;
+    height:20px;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    right: 20px;
+    top:10px;
+    border-radius: 15px;
+
+}
+
+.time{
+    background-color: white ;
+    width: 90px;
+    height:20px;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    left:34px;
+    top:10px;
+    border-radius: 15px;
+
+}
+
+img{
+     margin-top: 0px;
+     margin-bottom: 0px;
+     margin-right: 1px;
+     margin-left: 1px;
+
+}
